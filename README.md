@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/tGodson/Apple-website-clone/9353c6e87a2766b5f87f9ab91f09e0a19f97e053/index.html)
+[Live Demo Link](https://rawcdn.githack.com/tGodson/HTML-and-CSS-Capstone-Project/54acc036972ba9c84f0d5bd29db72167882fa31f/index.html)
 
 
 
