@@ -1,4 +1,4 @@
-# Apple website webpage clone
+# HTML and CSS capstone Project
 
 > Microverse Project: A replica of old Apple website webpage 
 
@@ -27,7 +27,7 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/tGodson/Apple-website-clone/issues).
+Feel free to check the [issues page](https://github.com/tGodson/HTML-and-CSS-Capstone-Project/issues).
 
 ## Show your support
 
@@ -35,11 +35,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Had a lot of ideas looking at @hatemswaileh code during his code presectation
-- Inspiration - @hatemswaileh
+- This project was first Designed by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
-[![Is <username> available for hire?](http://hireable.me/<username>)](http://hireable.me/p/<username>)
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [Creative Commons Corporation](https://creativecommons.org/licenses/by-nc/4.0/legalcode) licensed.

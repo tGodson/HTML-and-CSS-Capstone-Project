@@ -1,193 +1,403 @@
-* { 
-    font-family: 'Lato', sans-serif;
-    line-height: inherit;
-    color: inherit;
-    box-sizing: inherit;
-    list-style: none;
+* {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  line-height: inherit;
+  color: inherit;
+  box-sizing: inherit;
+  list-style: none;
 }
+
 :root {
-    --orang-color: #EC5242;
-    --grey-color: #272A31;
-    --ash-color:#D3D3D3;
+  --orang-color: #ec5242;
+  --grey-color: #272a31;
+  --ash-color: #d3d3d3;
+  --white-color: #fff;
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  src: url('./cocogoose-pro.regular.ttf');
+  font-style: normal;
+  font-weight: 100;
+}
+
+.centered {
+  text-align: center;
+}
+
+li {
+  text-decoration: none;
+}
+
+a {
+  color: var(--grey-color);
+  text-decoration: none;
+}
+
+.header-p,
+.course {
+  background-color: var(--ash-color);
+}
+
+.top-header,
+.course-section {
+  background-color: var(--grey-color);
+}
+
+.logo img {
+  height: 50px;
+}
+
+.campaign a {
+  border: solid 2px var(--orang-color);
+  padding: 4px;
+  color: var(--orang-color);
+}
+
+.buy a {
+  border: solid 2px var(--orang-color);
+  padding: 20px;
+  background-color: var(--orang-color);
+  color: var(--white-color);
+}
+
+.nav li a:hover {
+  color: var(--orang-color);
+  text-decoration: none;
+}
+
+.header {
+  background-image: url("./img/header.JPG");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-color: var(--white-color);
+  opacity: 0.6;
+  text-align: center;
+}
+
+.home-header {
+  text-align: left;
+}
+
+.header li h1,
+.header li h3 {
+  color: var(--orang-color);
+}
+
+.course h4 {
+  color: var(--orang-color);
+}
+
+.header li h4 {
+  margin-top: 15px;
+}
+
+.tutor-name {
+  font-family: 'cocogoose', sans-serif;
+}
+
+.contact span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.header li h1,
+.header li h4 {
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.header-text {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.header-text li {
+  padding: 30px auto;
+}
+
+.header-text li:last-child {
+  padding: 30px auto !important;
+}
+
+.header1 {
+  width: 75%;
+}
+
+.about-header {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-header-text {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.header-p {
+  width: 50%;
+  background-color: var(--ash-color);
+  padding: 10px;
+  z-index: 2;
+}
+
+.about-p {
+  width: 75%;
+  background-color: var(--white-color);
+  z-index: 2;
+  margin: 20px auto;
+}
+
+.course-section {
+  color: var(--white-color);
+  padding: 30px 0;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.course .card {
+  background-color: var(--ash-color);
+}
+
+.course .card i {
+  font-size: 35px;
+  color: var(--grey-color);
+}
+
+.card-container {
+  display: flex;
+  margin: 40px 0;
+}
+
+.section h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.course-section h6 {
+  text-decoration: underline;
+}
+
+.course-span {
+  border-bottom: 2px solid var(--orang-color);
+}
+
+.course {
+  padding: 10px 2px;
+  margin: 4px;
+}
+
+.course-section .container {
+  text-align: center;
+}
+
+.about-logo img {
+  border: 1px solid var(--grey-color);
+  padding: 15px;
+}
+
+.partner-logo img {
+  display: block;
+  width: 200px;
+}
+
+.most-buy1 img,
+.most-buy2 img {
+  height: 200px;
+  opacity: 0.5;
+  padding: 20px;
+}
+
+.tutors-section .media img {
+  height: 150px;
+  width: 150px;
+}
+
+.partners,
+.about-footer {
+  background-color: var(--grey-color);
+  color: var(--white-color);
+}
+
+footer,
+.about-logo,
+.most-buy-section {
+  padding: 50px 80px;
+}
+
+.most-buy-section .container {
+  text-align: center;
+}
+
+.about-logo {
+  text-align: center;
+}
+
+.buy-course-section {
+  padding: 50px 0;
+}
+
+.cartegories {
+  display: flex;
+}
+
+.buy-course-section .cartegories {
+  margin: 25px 0;
+  border: 1px solid var(--ash-color);
+  box-shadow: 5px 5px 5px 5px var(--ash-color);
+}
+
+.buy-course-section .cartegories img {
+  width: 280px;
+  height: 180px;
+}
+
+h5 {
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.about-first-child {
+  display: none;
+}
+
+.buy,
+.buy-image,
+.buy-text {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+img[alt="footer-logo"] {
+  width: 100px;
+  margin-right: 25px;
+}
+
+.partner-logo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.most-buy-img {
+  display: flex;
+}
+
+.most-buy1,
+.most-buy2 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 30px;
+  background-color: var(--orang-color);
+  z-index: 2;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+.most-buy1 div,
+.most-buy2 div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white-color);
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    display: none;
   }
 
-@font-face{
-    font-family: 'cocogoose';
-    src: url('./cocogoose-pro.regular.ttf');
-    font-style: normal;
-    font-weight: 100;
-}
-
-li{
-    text-decoration: none;
-}
-a{
-    color: var(--grey-color);
-    text-decoration: none;
-}
-
-.header-p,.course {
-    background-color: var(--ash-color);
-}
-.top-header,.course-section {
-    background-color: var(--grey-color);
-}
-.logo img {
-    height: 50px;
-}
-.nav li a:hover {
-    color: var(--orang-color);
-    text-decoration: none;
-}
-.campaign a{
-    border: solid 2px var(--orang-color);
-    padding: 4px;
-    color: var(--orang-color);
-}
-.header {
-    background-image: url("./img/header.JPG");
+  .header {
     background-size: cover;
     height: 100vh;
     position: relative;
     width: 100%;
-    background-color: #ffffff;
-    opacity: 0.6;
-}
-.header li h1,.header li h3 {
-    color: var(--orang-color);
-}
-.header li h4{
-    margin-top: 15px;
-}
-.header li h1,.header li h4{
-    font-family: 'Cocogoose';
-}
-.header-text {
-    position: absolute;
-  top: 20%;
-}
-.header1{
-    width: 75%;
-}
-.header-p{
-    width: 50%;
-    background-color: var(--ash-color);
-    padding: 10px;
-}
-.course-section{
-    color: white;
-    margin: 30px 0px;
-    padding: 30px 0px;
-}
-.fa-bars {
-   display: none;
-}
-.course .card {
-    background-color: var(--ash-color);
-}
+  }
 
-.course h4 {
-color: var(--orang-color);
-}
-.course .card i {
-    font-size: 35px;
-    color: var(--grey-color);
-}
-.card-container {
-    display: flex;
-    margin: 40px 0px;
-}
-.section h2 {
-    text-align: center;
-    padding-bottom: 10px;
-}
-.course-section h6 {
-    text-decoration: underline;
-}
-.course-span{
-    border-bottom: 2px solid var(--orang-color);
-   
-}
-.course{
-    padding: 10px 2px;
-    margin: 4px;
-}
-.course-section .container {
-    text-align: center;
-}
-
-.tutors-section .media img{
-    height: 150px;
-    width: 150px;
-}
-
-.partners {
-    background-color: var(--grey-color);
-    color: white;
-}
-footer{
-    margin: 50px 80px;
-}
-img[alt="footer-logo"]{
-    width: 100px;
-    margin-right: 25px;
-}
-.partner-logo {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-.partner-logo img {
+  .card-container {
     display: block;
-    width:200px;
-    
-}
+  }
 
-@media screen and (max-width:767px){
-    header{
-        display:none;
-    }
-    .header {
-        background-size: cover;
-        height: 100vh;
-        position: relative;
-        width: 100%;
-    }
-    .card-container {
-        display: block;
-    }
-    
-    .fa-bars {
-        display:block;
-        font-size: 30px;
-        position: absolute;
-        top: 2%;left: 5%;
-    }
-    .container {
-        width: 100%;
-        padding-right: 5px;
-        padding-left: 5px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .header1{
-        width: 100%;
-    }
-    .header-p{
-        width: 100%;
-    }
-    .tutors .media {
-        padding: 10px 2px;
-    }
-    .partner-logo img {
-        
-        width:120px;
-        
-    }
-    ul{
-        padding:5px;
-    }
-    footer p {
-        display: none;
-    }
+  .cartegories div {
+    padding-bottom: 15px;
+  }
+
+  .fa-bars {
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+  }
+
+  .course-heading {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .about-first-child {
+    display: block;
+  }
+
+  .most-buy-img {
+    display: block;
+  }
+
+  .most-buy1 img,
+  .most-buy2 img {
+    height: auto;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .about-header {
+    width: 100%;
+  }
+
+  .about-p {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header1 {
+    width: 100%;
+  }
+
+  .header-p {
+    width: 100%;
+  }
+
+  .tutors .media {
+    padding: 10px 2px;
+  }
+
+  .partner-logo img {
+    width: 120px;
+  }
+
+  .cartegories {
+    display: block;
+  }
+
+  ul {
+    padding: 5px;
+  }
+
+  footer p {
+    display: none;
+  }
 }
