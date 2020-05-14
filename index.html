@@ -16,6 +16,8 @@
     />
   <link rel="stylesheet" href="style.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   
 </head>
 <body>
@@ -55,10 +57,20 @@
       <section>
         <div class="header home-header">
           <div class="container">
-            <div><i class="fas fa-bars"></i></div>
+            <div class="dropdown">
+              <button ><i  onclick="myFunction()" class="fas fa-bars dropbtn"></i></button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About</a>
+                <a href="./course.html">Courses</a>    
+                <a href="#">Sponsor</a>
+                <a href="#">News</a>
+                <a href="#">T Campaign</a>
+              </div>
+            </div>
             <ul class="header-text">
               <li><h3>"Web Developement"</h3></li>
-              <li class="header1"><h1>Tenseal Web Developement Courses</h1></li>
+              <li class="header1"><h1>Tenseal Web Development Courses</h1></li>
               <li class="header-p"><p>Join more than 1,500 people from all over the world on the journey to becomming a web developer.
                 Take our zero to hero courses and thank us later!
               </p></li>
@@ -255,5 +267,6 @@
         </div>
       </footer>
     </main>
+    <script src="./sript.js"></script>
 </body>
 </html>

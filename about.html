@@ -55,7 +55,17 @@
         <section>
             <div class="header centered">
               <div class="container">
-                <div><i class="fas fa-bars"></i></div>
+                <div class="dropdown">
+                  <button ><i  onclick="myFunction()" class="fas fa-bars dropbtn"></i></button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="./index.html">Home</a>
+                    <a href="./about.html">About</a>
+                    <a href="./course.html">Courses</a>    
+                    <a href="#">Sponsor</a>
+                    <a href="#">News</a>
+                    <a href="#">T Campaign</a>
+                  </div>
+                </div>
                 <ul class="header-text about-header-text">
                     <li class="about-first-child"><h3>"Web Developement"</h3></li>
                   <li class="header1 about-header"><h1>Tenseal Web Developement Courses</h1></li>
@@ -129,5 +139,6 @@
             </div>
         </footer>
     </main>
+    <script src="./sript.js"></script>
 </body>
 </html>

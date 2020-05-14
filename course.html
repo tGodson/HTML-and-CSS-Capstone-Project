@@ -54,8 +54,19 @@
     <main class="section3">
         <section class="buy-course-section">
             <div class="container">
-                <div><i class="fas fa-bars mb-1"></i></div>
+                <div class="dropdown">
+                    <button ><i  onclick="myFunction()" class="fas fa-bars dropbtn"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="./index.html">Home</a>
+                      <a href="./about.html">About</a>
+                      <a href="./course.html">Courses</a>    
+                      <a href="#">Sponsor</a>
+                      <a href="#">News</a>
+                      <a href="#">T Campaign</a>
+                    </div>
+                  </div>
                 <div class="course-heading">
+                    <h1>Courses</h1>
                     <h5>See the most demanded Courses</h5>
                     <p>Take a look at the courses which people like you all around the world are buying</p>
                 </div>
@@ -75,7 +86,7 @@
                     <div class="buy-image">
                         <img src="./img/css.png"  alt="course-pic"/>
                     </div>
-                    <div class="buy-tex">
+                    <div class="buy-text">
                         <p>CSS is a language that describes the style of an HTML document.
                             CSS describes how HTML elements should be displayed.</p>
                     </div>
@@ -87,7 +98,7 @@
                     <div class="buy-image">
                         <img src="./img/javascript.png"  alt="course-pic"/>
                     </div>
-                    <div class="buy-tex">
+                    <div class="buy-text">
                         <p>JavaScript is the programming language of HTML and the Web.
                             JavaScript is easy to learn.</p>
                     </div>
@@ -99,7 +110,7 @@
                     <div class="buy-image">
                         <img src="./img/ruby.jpg"  alt="course-pic"/>
                     </div>
-                    <div class="buy-tex">
+                    <div class="buy-text">
                         <p>Ruby is a dynamic, open source programming language with a focus on simplicity 
                             and productivity.</p>
                     </div>
@@ -111,7 +122,7 @@
                     <div class="buy-image">
                         <img src="./img/rails.png"  alt="course-pic"/>
                     </div>
-                    <div class="buy-tex">
+                    <div class="buy-text">
                         <p>Learning to build a modern web application is daunting. Ruby on Rails makes it much easier 
                             and more fun.</p>
                     </div>
@@ -138,5 +149,6 @@
             </div>
         </footer>
     </main>
+    <script src="./sript.js"></script>
 </body>
 </html>

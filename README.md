@@ -1,6 +1,6 @@
 # HTML and CSS capstone Project
 
-> Microverse Project: A replica of old Apple website webpage 
+> Microverse Project: HTML and CSS Capstone Project
 
 ![screenshot](./app_screenshot.PNG)
 
@@ -15,7 +15,17 @@
 
 [Live Demo Link](https://rawcdn.githack.com/tGodson/HTML-and-CSS-Capstone-Project/54acc036972ba9c84f0d5bd29db72167882fa31f/index.html)
 
+## Installing
 
+A step by step explaination that tells you how to get a development env running
+
+- Follow [this link](https://github.com/tGodson/HTML-and-CSS-Capstone-Project/tree/dev-branch) the to the repository
+- Click on the green Clone or download button on the right
+- choose the Download Zip option
+- go to your downloads folder on you device and there you will find the zipped repo
+- to unzip it, right click on the repo and extract the files to your prefered location
+- go to the location of your extracted files and there you will see ther repo folder
+- double click on the folder and you will see the repo files on which you can work on
 
 👤 **Author**
 
