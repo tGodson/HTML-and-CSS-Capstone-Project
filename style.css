@@ -67,7 +67,7 @@ a {
 }
 
 .header {
-  background-image: url("./img/header.JPG");
+  background-image: url("./img/header.jpg");
   background-size: cover;
   height: 100vh;
   position: relative;
