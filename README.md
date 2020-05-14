@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/tGodson/HTML-and-CSS-Capstone-Project/54acc036972ba9c84f0d5bd29db72167882fa31f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/tGodson/HTML-and-CSS-Capstone-Project/a89b482ffd3cbf5c0d81ffcf470300fbe698e66c/index.html)
 
 ## Installing
 
