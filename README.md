@@ -19,7 +19,7 @@
 
 A step by step explaination that tells you how to get a development env running
 
-- Follow [this link](https://github.com/tGodson/HTML-and-CSS-Capstone-Project/tree/dev-branch) the to the repository
+- Follow [this link](https://github.com/tGodson/HTML-and-CSS-Capstone-Project) the to the repository
 - Click on the green Clone or download button on the right
 - choose the Download Zip option
 - go to your downloads folder on you device and there you will find the zipped repo
