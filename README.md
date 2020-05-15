@@ -8,7 +8,7 @@
 
 - HTML,
 - CSS
--Bootstrap
+- Bootstrap
 
 
 ## Live Demo
