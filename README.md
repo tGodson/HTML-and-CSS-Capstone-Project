@@ -1,4 +1,4 @@
-# HTML and CSS capstone Project
+# Tenseal Platform
 
 > Microverse Project: HTML and CSS Capstone Project
 
@@ -14,6 +14,11 @@
 ## Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/tGodson/HTML-and-CSS-Capstone-Project/a89b482ffd3cbf5c0d81ffcf470300fbe698e66c/index.html)
+
+## Short description
+
+- This is an MVP project which is based on building the UX/UI of a platform where some web development Courses can be purchased.
+- This project showcases the index page, the about us page and the Courses page which displays all the available courses.
 
 ## Installing
 
